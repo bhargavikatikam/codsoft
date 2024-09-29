@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=GoogleChrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhargzzz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<style lang="css">
+  
+
+body {
+  background-color:#2e2e2e;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: Arial,Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #008cff;
+    color: #fff;
+    padding: 10px 0;
+}
+ 
+.menu {
+  list-style: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+  text-align: center;
+}
+nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.menu a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+#home {
+    background-color: rgba(255, 255, 255, 0.397);
+    box-shadow: black;
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #008cff;
+}
+#herosection{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.397);
+    text-align: center;
+    padding: 50px 0;
+   border-radius: 10px;
+    font-family: roboto;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px  #008cff;
+
+}
+#projects {
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  #008cff;
+    color: #fff;
+}
+
+#about{
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  #008cff;
+}
+#skills{
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  #008cff;
+}
+#contact{
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  #008cff;
+}
+.project {
+    background-color: rgba(174, 174, 174, 0.397);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow:2px 2px 2px 2px   #008cff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #008cff;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+.button {
+            background-color: rgb(0, 60, 128);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+}
+.no-underline{
+  text-decoration: none;
+  color: inherit;
+}
+h2{
+  color: rgb(245, 245, 245);
+}
+h3,p{
+    padding: 10px;
+            margin: 10px;
+            text-decoration: dashed;
+}
+img{
+    border: solid 6px skyblue ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   margin-left: 700px;
+   margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+ }   
+.container{
+    background-color: #fff;
+}
+</style>
+<body>
+
+  
+    <header>
+        <nav >
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#herosection">Hero Section</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="home">
+           
+        <h1>Hello, Am Bhargavi</h1>
+        <p>Welcome to my portfolio!</p>
+       <img src="meh.jpg">
+    </section>
+    
+      <hr>
+      <section id="herosection" class="container">
+          <h2>"Hi, I’m Bhargavi Katikam, a  Web developer. I create responsive and scalable web applications that provide seamless user experiences."</h2>
+          <br>
+          <button class="button"><a href="https://www.linkedin.com/feed/" class="no-underline">GET IN TOUCH</a></button>
+      </section><hr>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>"Hello!  I Am Bhargavi.Katikam, <br>a passionate web developer specializing in building responsive and dynamic websites.
+          <br> With a strong Background in  Front-end technologies Like <strong>"HTML,CSS,Java Script".</strong>I committed to delivering <br>high quality solutions that meet clients needs and exceed expections. Take a look at<br>  my projects below or feel free to get in touch.I'm always open to Exciting<br> new opportunities". <br>
+        </p>
+</section><hr>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Youtube(clone)</h3>
+            <p>I design a Youtube frontend Web site (clone). This page gives natural youtube features! <br>I Hope It You Like This page</p>
+            <button class="button"><a href="/YOUTUBE Clone/youtube.html" class="no-underline">View My Project</a></button>
+        </div>
+        <div class="project">
+            <h3>Youtube(clone)</h3>
+            <p>I Create A E-Commerce website On Food.Its Gives Good Challenge  to create site and it helps to skills up! </p>
+            <button class="button"><a href="/krishna/life/e-commerce.html" class="no-underline">View My Project</a></button>
+        </div>
+    </section><hr>
+
+  
+    <section id="skills"class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Frontend</li>
+            <li>Graphical Designing</li>
+            <li>Sketching</li>
+        </ul>
+    </section><hr>
+
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="https://www.linkedin.com/feed/">LINKED IN</a></p>
+        <p><strong>Email:</strong><u>kbhargavi25052005@gmail.com</u></p>
+    </section><hr>
+
+    <footer>
+        <p>&copy; [Bhargavi]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
